@@ -10,6 +10,12 @@ body {
     --light-blue: #35e6e9;
 }
 
+.container {
+    display: grid;
+    grid-template-areas: 
+        ". aside content-text .";
+}
+
 main {
     grid-area: content-text;
 }
@@ -18,9 +24,10 @@ aside {
     grid-area: aside;
 }
 
-.container {
-    display: grid;
-    grid-template-areas: 
-        ". aside content-text .";
+aside h1 {}
+aside h1 span {
+    color: var(--red)
 }
+
+
 
