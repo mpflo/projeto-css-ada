@@ -147,11 +147,20 @@ main form [data-input] select {
     border-bottom: .1rem solid var(--black);
 }
 main form [data-input] select {
-    /* border: .1rem solid var(--black);
-    border-radius: 3.2rem; */
     margin: 2rem 0;
 }
 main form [data-input] select option {}
+main form [data-input="points"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main form [data-input="points"] input {
+    flex-basis: 90%;
+}
+main form [data-input="points"] button {
+    flex-basis: 8%;
+}
 main form button {}
 
 
