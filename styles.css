@@ -25,6 +25,11 @@ main nav {
     flex-flow: column;
 }
 
+main h2 {}
+main h2 span {
+    color: var(--red);
+}
+
 aside {
     grid-area: aside;
 }
