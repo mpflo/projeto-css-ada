@@ -76,6 +76,7 @@ aside img {
 
 aside h1 {
     font-size: 6.4rem;
+    text-align: center;
 }
 aside h1 span {
     color: var(--red)
