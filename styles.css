@@ -15,7 +15,10 @@ body {
 .container {
     display: grid;
     grid-template-areas: 
-        ". aside content-text .";
+        ". . . ."
+        ". aside content-text ."
+        ". aside content-text ."
+        ". . . .";
 }
 
 main {
