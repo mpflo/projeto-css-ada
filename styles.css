@@ -127,8 +127,15 @@ main .title i {
 }
 
 main form {}
+main form label {
+    display: block;
+}
 main form [data-input] {}
-main form [data-input] input {}
+main form [data-input] input,
+main form [data-input] select {
+    display: block;
+    width: 100%;
+}
 main form [data-input] select {}
 main form [data-input] select option {}
 main form button {}
