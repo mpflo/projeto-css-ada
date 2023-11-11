@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,7 +27,7 @@ button {
 }
 
 :root {
-    box-sizing: border-box;
+    
     font-size: 62.5%;
 
     /* colors */
@@ -155,6 +156,7 @@ main form [data-input] select {
     border-right: 0;
     border-bottom: .1rem solid var(--black);
     font-family: 'Poppins', sans-serif;
+    padding: .4rem;
 }
 main form [data-input] select {
     margin: 2rem 0;
