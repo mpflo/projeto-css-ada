@@ -131,9 +131,7 @@ main form {}
 main form label {
     display: block;
 }
-main form [data-input] {
-    
-}
+main form [data-input] {}
 main form [data-input] input {
     border-top: 0;
     border-left: 0;
@@ -144,6 +142,7 @@ main form [data-input] select {
     display: block;
     width: 100%;
     height: 3.9rem;
+    font-size: 2rem;
 }
 main form [data-input] select {}
 main form [data-input] select option {}
