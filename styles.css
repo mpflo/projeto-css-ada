@@ -169,7 +169,7 @@ main form [data-input] {}
 main form [data-input] input {}
 main form [data-input] :is(input:focus, select:focus) {
     outline: none;
-    border-color: var(--red);
+    border-color: var(--light-blue);
 }
 main form > [data-input] :is(input, select) {
     display: block;
