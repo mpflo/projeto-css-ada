@@ -166,6 +166,7 @@ main form [data-input="points"] input {
 main form [data-input="points"] button {
     flex-basis: 8%;
     border: none;
+    border-radius: .8rem;
 }
 main form button {
     background-color: var(--light-blue);
