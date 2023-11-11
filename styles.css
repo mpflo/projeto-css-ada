@@ -43,6 +43,7 @@ main nav a {
     text-align: center;
     padding: 1.4rem 0;
     font-size: 2.4rem;
+    border-radius: 3.2rem;
 }
 
 main nav a:nth-child(2n + 1)  {
