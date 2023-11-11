@@ -8,6 +8,7 @@ body {
     /* colors */
     --red: #ff5678;
     --light-blue: #35e6e9;
+    --black: #000000;
 }
 
 .container {
