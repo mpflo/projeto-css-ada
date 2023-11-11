@@ -24,7 +24,9 @@ aside {
     grid-area: aside;
 }
 
-aside h1 {}
+aside h1 {
+    font-size: 6.4rem;
+}
 aside h1 span {
     color: var(--red)
 }
