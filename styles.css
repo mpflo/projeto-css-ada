@@ -12,7 +12,7 @@ body {
     --white: #ffffff;
 }
 
-.container {
+.home-container {
     display: grid;
     grid-template-areas: 
         ". . . ."
