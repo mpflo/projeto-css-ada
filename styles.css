@@ -1,7 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
     font-size: 62.5%;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+main {
+    grid-area: content-text;
 }
+
+aside {
+    grid-area: aside;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        ". aside content-text .";
+}
+
