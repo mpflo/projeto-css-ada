@@ -118,5 +118,20 @@ main .title {
     gap: 1.2rem;
 }
 
+main .title h2 {
+
+}
+
+main .title i {
+    color: var(--black)
+}
+
+main form {}
+main form [data-input] {}
+main form [data-input] input {}
+main form [data-input] select {}
+main form [data-input] select option {}
+main form button {}
+
 
 
