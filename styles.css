@@ -28,6 +28,7 @@ main {
 main nav {
     display: flex;
     flex-flow: column;
+    gap: 16px 0;
 }
 
 main nav a {
