@@ -78,7 +78,6 @@ main nav a:nth-child(2n + 2) {
 
 main h2 {
     font-size: 4rem;
-    max-width: 60%;
 }
 main h2 span {
     color: var(--red);
