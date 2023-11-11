@@ -36,6 +36,7 @@ main nav a {
     text-decoration: none;
     color: var(--white);
     text-align: center;
+    padding: 1.8rem 0;
 }
 
 main nav a:nth-child(2n + 1)  {
