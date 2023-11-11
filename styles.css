@@ -30,6 +30,11 @@ main nav {
     flex-flow: column;
 }
 
+main nav a {
+    display: block;
+    text-decoration: none;
+}
+
 main h2 {
     font-size: 3.2rem;
 }
