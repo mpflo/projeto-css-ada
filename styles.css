@@ -65,5 +65,9 @@ aside h1 span {
     color: var(--red)
 }
 
+footer {
+    text-align: center;
+}
+
 
 
