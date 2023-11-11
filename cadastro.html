@@ -20,17 +20,32 @@
             <h1><span>We</span> Form</h1>
         </aside>
         <main>
-            <h2>Cadastre sua <span>entidade</span> ou<br> acesse dados de <span>parcerias</span></h2>
+            <div class="title">
+                <a href="index.html"><i class="fa-solid fa-angle-left"></i></a>
+                <h2>Nova<span> entidade</span></h2>
+            </div>
 
-            <nav>
-                <a href="cadastro.html">Cadastrar entidades</a>
-                <a href="ver-entidades.html">Ver entidades cadastradas</a>
-            </nav>
+            <form>
+                <div>
+                    <label for="input-name">Nome:</label>
+                    <input type="text" name="input-name" id="input-name">
+                </div>
 
-            <footer>
-                <h3>Sua entidade não se enquadra nos campos de atuações disponíveis?</h3>
-                <a href="registro.html">Registrar novos campos de atuação</a>
-            </footer>
+                <div>
+                    <select name="input-action" id="">
+                        <option disabled>Escolha uma opção</option>
+                        <option value="01">001</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="input-points">Pontos de coleta</label>
+                    <input type="text" name="input-points" id="input-points">
+                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
         </main>
     </section>
 
