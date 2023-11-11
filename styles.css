@@ -68,6 +68,7 @@ main nav a {
     padding: 1.2rem 0;
     font-size: 1.8rem;
     border-radius: 3.2rem;
+    font-weight: 700;
 }
 
 main nav a:nth-child(2n + 1)  {
