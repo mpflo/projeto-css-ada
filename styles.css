@@ -169,6 +169,7 @@ main form [data-input="points"] button {
 }
 main form button {
     background-color: var(--light-blue);
+    color: var(--white);
     
 }
 
