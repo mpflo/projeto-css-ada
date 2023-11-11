@@ -34,6 +34,7 @@ main nav a {
     display: block;
     text-decoration: none;
     color: var(--white);
+    text-align: center;
 }
 
 main nav a:nth-child(2n + 1)  {
