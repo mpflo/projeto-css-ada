@@ -25,7 +25,9 @@ main nav {
     flex-flow: column;
 }
 
-main h2 {}
+main h2 {
+    font-size: 3.2rem;
+}
 main h2 span {
     color: var(--red);
 }
