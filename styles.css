@@ -35,6 +35,7 @@ h1, h2, h3 {
 main {
     grid-area: content-text;
     border: 1px solid #ddd;
+    border-radius: 1.2rem;
 }
 
 main nav {
