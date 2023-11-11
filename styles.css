@@ -30,10 +30,12 @@ h1, h2, h3 {
     
     display: grid;
     grid-template-areas: 
-        ". . . ."
-        ". aside aside content-text"
-        ". aside aside content-text"
-        ". . . .";
+        ". . . . ."
+        ". aside aside content-text ."
+        ". aside aside content-text ."
+        ". . . . .";
+
+    gap: 10rem;
 }
 
 main, aside {}
