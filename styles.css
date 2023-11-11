@@ -134,6 +134,11 @@ main form label {
 main form [data-input] {
     
 }
+main form [data-input] input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
 main form [data-input] input,
 main form [data-input] select {
     display: block;
