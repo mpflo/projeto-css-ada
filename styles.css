@@ -153,8 +153,12 @@ main .title {
 
 main .title h2 {}
 
-main .title i {
+main .title a i {
     color: var(--black)
+}
+
+main .title a:hover i  {
+    color: var(--red);
 }
 
 main form {}
