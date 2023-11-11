@@ -5,8 +5,20 @@
 
 body {
     font: 200 1.6rem 'Poppins', sans-serif;
-
     height: 100vh;
+}
+
+.btn {
+    border: none;
+    display: block;
+    text-decoration: none;    
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1.8rem;
+    border-radius: 3.2rem;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
 }
 
 :root {
@@ -62,14 +74,7 @@ main nav {
 }
 
 main nav a {
-    display: block;
-    text-decoration: none;
     color: var(--white);
-    text-align: center;
-    padding: 1.2rem 0;
-    font-size: 1.8rem;
-    border-radius: 3.2rem;
-    font-weight: 700;
 }
 
 main nav a:nth-child(2n + 1)  {
