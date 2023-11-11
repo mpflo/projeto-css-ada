@@ -172,6 +172,9 @@ main form button {
     color: var(--white);
     
 }
+main form button[data-button="button"] {
+    margin-top: 2rem;
+}
 
 
 
