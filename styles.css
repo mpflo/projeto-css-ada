@@ -4,6 +4,10 @@ body {
 
 :root {
     font-size: 62.5%;
+
+    /* colors */
+    --red: #ff5678;
+    --light-blue: #35e6e9;
 }
 
 main {
