@@ -132,10 +132,7 @@ main form label {
 }
 main form [data-input] {}
 main form [data-input] input {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: .1rem solid var(--black);
+    
 }
 main form [data-input] input,
 main form [data-input] select {
@@ -144,10 +141,14 @@ main form [data-input] select {
     height: 3.9rem;
     font-size: 2rem;
     background-color: rgba(240, 240, 240, 0.69);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid var(--black);
 }
 main form [data-input] select {
-    border: .1rem solid var(--black);
-    border-radius: 3.2rem;
+    /* border: .1rem solid var(--black);
+    border-radius: 3.2rem; */
     margin: 2rem 0;
 }
 main form [data-input] select option {}
