@@ -64,6 +64,10 @@ aside {
     grid-area: aside;
 }
 
+aside img {
+    width: 100%;
+}
+
 aside h1 {
     font-size: 6.4rem;
 }
