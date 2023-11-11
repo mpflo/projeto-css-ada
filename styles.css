@@ -8,6 +8,10 @@ body {
     height: 100vh;
 }
 
+button {
+    cursor: pointer;
+}
+
 .btn {
     border: none;
     display: block;
@@ -150,6 +154,7 @@ main form [data-input] select {
     border-left: 0;
     border-right: 0;
     border-bottom: .1rem solid var(--black);
+    font-family: 'Poppins', sans-serif;
 }
 main form [data-input] select {
     margin: 2rem 0;
