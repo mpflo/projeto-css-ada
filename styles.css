@@ -184,8 +184,23 @@ main form > [data-input] :is(input, select) {
     font-family: 'Poppins', sans-serif;
     padding: .4rem;
 }
+main form [data-input="action"] {
+    position: relative;
+}
 main form [data-input] select {
     margin: 2rem 0;
+    appearance: none;
+    position: relative;
+}
+main form [data-input="action"]:after {
+    content: '\f107';
+    position: absolute;
+    font-size: 2rem;
+    right: .5rem;
+    top: 1.2rem;
+    z-index: 2;
+    font: var(--fa-font-solid);
+    color: var(--light-blue);
 }
 main form [data-input] select option {}
 main form [data-input="points"] {
