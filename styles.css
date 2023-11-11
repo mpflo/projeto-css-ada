@@ -26,11 +26,13 @@ h1, h2, h3 {
 }
 
 .home-container {
+    height: 100vh;
+    
     display: grid;
     grid-template-areas: 
         ". . . ."
-        ". aside content-text ."
-        ". aside content-text ."
+        ". aside aside content-text"
+        ". aside aside content-text"
         ". . . .";
 }
 
