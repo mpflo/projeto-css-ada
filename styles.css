@@ -144,6 +144,7 @@ main form [data-input] select {
     width: 100%;
     height: 3.9rem;
     font-size: 2rem;
+    background-color: #eee;
 }
 main form [data-input] select {
     border: .1rem solid var(--black);
