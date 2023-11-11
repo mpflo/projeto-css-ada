@@ -20,6 +20,11 @@ main {
     grid-area: content-text;
 }
 
+main nav {
+    display: flex;
+    flex-flow: column;
+}
+
 aside {
     grid-area: aside;
 }
